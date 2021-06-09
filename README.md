@@ -5,9 +5,7 @@ The **Note-Taker** application is a project from the March-August 2021 cohort fr
 
 Our task is to modify starter code to create an application that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
-Our project is to build the back end, connect the two, and then deploy the entire application to Heroku.
-
-Technologies are listed below.  
+Our project is to build the back end, connect the two, and then deploy the entire application to Heroku. 
 
 ## User Story
  - AS A small business owner
