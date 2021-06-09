@@ -45,7 +45,7 @@ March 2021 cohort instructors:
 - TA - Andrew Hatfield [GitHub](https://github.com/ALHatfield)
 
 ## Usage
-* [GitHub Repository](https://github.com/Laura-Bullek/Team-Profile-Generator)
+* [GitHub Repository](https://github.com/Laura-Bullek/Note-Taker)
 
 ## Licensing
 MIT License
