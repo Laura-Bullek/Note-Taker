@@ -33,7 +33,6 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
-![Note-Taker Walkthrough Video](./assets/Good-README-Generator-Walkthrough.gif)
 
 ## Credits 
 The web development bootcamp program is offered through the University of New Hampshire Professional Development & Training and Trilogy Education Services.

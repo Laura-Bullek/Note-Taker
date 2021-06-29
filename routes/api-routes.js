@@ -50,5 +50,7 @@ module.exports = function(app) {
 }
 
 
+// So confused with this - some of the front end is missing and I'm lost. 
+// I'm leaving this alone for now and will come back.
 
 // Completed with help from my tutor, Kristy V. from https://www.wyzant.com/
