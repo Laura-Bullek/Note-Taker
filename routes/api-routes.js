@@ -32,6 +32,23 @@ module.exports = function(app) {
     });
   });
 
+  // Deletes a note
+  app.delete("/api/notes/:id", (req, res) => {
+    let noteID = req.params.id;
+    fs.readFile("./db/db.json", "utf8", (err, data) => {
+      if (err) throw err;
+      const allNotes = JSON.parse(data);
+      const newAllNotes = allNotes.filter(note => note.id != noteID);
+
+      fs.writeFile("./db/db.json", JSON.stringify(newAllNotes, null, 2), err => {
+        if (err) throw err;
+        res.json(newAllNotes);
+        console.log("Note Deleted")
+      });
+    });
+  })
+}
+
 
 
 // Completed with help from my tutor, Kristy V. from https://www.wyzant.com/
